@@ -61,5 +61,5 @@ policy "restrict-vm-publisher" {
 
 policy "restrict-vm-size" {
     source = "./restrict-vm-size.sentinel"
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "hard-mandatory"
 }
